@@ -4,9 +4,12 @@ You can download images on instagram.
 
 # Set up
 
-INSTAGRAM_USER: Username or Phone number
-INSTAGRAM_PASS: Password
+## Environment variable
 
+- INSTAGRAM_USER: Username or Phone number
+- INSTAGRAM_PASS: Password
+
+## Install Python libraries
 
 ```bash
 pip install -r requirements.txt
@@ -14,7 +17,7 @@ pip install -r requirements.txt
 
 # Usage
 
-```python
+```bash
 python instagram.py 'hashtag name'
 ```
 
